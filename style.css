@@ -4,11 +4,17 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html, body {
+    height: 100%;
+}
 .container{
     width: 100%;
-    min-width: 100vh;
+    min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .todo-app{
     width: 100%;
